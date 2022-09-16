@@ -1,0 +1,1 @@
+g++ src/main.cpp -Wall -Wextra -Ofast -std=c++17 $(pkg-config sfml-graphics --libs --cflags) -lGL
